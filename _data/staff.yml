@@ -6,12 +6,6 @@ Instructors:
       image: staff/amir.jpg
 
 TAs:
-    - name: Abhishek Bamotra
-      email: abamotra@andrew.cmu.edu
-      url: https://cv.abhib.com/
-      office-hours: Thr 3:00 - 4:00 PM
-      image: staff/abhi.jpg
-
     - name: Akanksh Shetty
       email: ashetty2@andrew.cmu.edu
       url: https://www.linkedin.com/in/akankshshetty/
@@ -24,6 +18,12 @@ TAs:
       office-hours: Mon 3:00 - 4:00 PM, Sat 10:00 - 11:00 PM
       image: staff/lalit.png
 
+    - name: Abhishek Bamotra
+      email: abamotra@andrew.cmu.edu
+      url: https://cv.abhib.com/
+      office-hours: Thr 3:00 - 4:00 PM
+      image: staff/abhi.jpg
+
     - name: Lakshmi Maddirala
       email: lmaddira@andrew.cmu.edu
       url:
@@ -35,3 +35,9 @@ TAs:
       url:
       office-hours: Wed 3:00 - 4:00 PM
       image:
+
+    - name: Aditya Patra
+      email: adityapa@andrew.cmu.edu
+      url:
+      office-hours: Fri 3:00 - 4:00 PM
+      image: staff/adi.jpg
