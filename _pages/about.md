@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: MACH LRNG AI FOR ENG<b>M</b>L <b>A</b>I <b>F</b>or <b>E</b>ngineers
+title: <b>M</b>L <b>A</b>I <b>F</b>or <b>E</b>ngineers
 description: 24-787 • Fall 2020 • Carnegie Mellon University
 logo: cmu-logo.png
 news: true
