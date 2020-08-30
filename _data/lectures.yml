@@ -24,40 +24,340 @@
   readings:
 
 
-- date: Thu Sep 3, 2020
+- date: Tue Sep 8, 2020
   lecturer:
   title: >
-    <strong>Linear Regression</strong>
+    <strong>Ingredients of Statistical Learning</strong>
+  notes:
+  readings:
+    Review of Probability Theory, Bayes, Posterior, Likelihood and Prior, Maximum Likelihood Estimate (MLE), Distributions, Joint and Conditional Probability, Causality and Correlation.
+
+- date: Thu Sep 10, 2020
+  lecturer:
+  title: >
+    <strong>Statistics and Information Theory</strong>
+  notes:
+  readings:
+    Entropy, Entropy for distributions, relative entropy, KL Divergence, Probabilistic Interpretation of Regression, Bernoulli Distribution, MLE for Bernoulli.
+
+- date: Fri Sep 11, 2020
+  lecturer:
+  title: >
+    REC: <strong>Pandas and python</strong>
   notes:
   readings:
 
 
-- date: Thu Sep 3, 2020
+- date: Tue Sep 15, 2020
   lecturer:
   title: >
-    <strong>Linear Regression</strong>
+    <strong>Binary Classification</strong>
+  notes:
+  readings:
+    Classification, Reformulation of Regression to Classification, Logistic Function, Parametrization of classification model, Interpretation of Logistic function.
+
+
+- date: Thu Sep 17, 2020
+  lecturer:
+  title: >
+    <strong>Multinomial Classification</strong>
+  notes:
+  readings:
+    Multinomial Classification vs Binary, Multinomial function, Softmax Regression.
+
+
+- date: Fri Sep 18, 2020
+  lecturer:
+  title: >
+    REC: <strong>Gradient Descent in Python</strong>
   notes:
   readings:
 
-- date: Thu Sep 3, 2020
+
+- date: Tue Sep 22, 2020
   lecturer:
   title: >
-    <strong>Linear Regression</strong>
+    <strong>Generative Models</strong>
+  notes:
+  readings:
+    Generative and Discriminating Algorithms, Generative Models, Discriminative Models, Multivariate Gaussian Distribution, Gaussian Discriminant Analysis (GDA), GDA and Logistic Regression, Naive Bayes, Practical Examples of Naive Bayes.
+
+
+- date: Thu Sep 24, 2020
+  lecturer:
+  title: >
+    <strong>Error and Regularization</strong>
+  notes:
+  readings:
+    Nature of Error, Error structure, Training and Test Error, Bias and Variance Concept, Bias and Variance Trade off, Motivation for Regularization, L2 Regularization, Ridge Regression, L1 Regularization (LASSO), LASSO Regression, Elastic net, Comparisons of different Regularization Schemes, Optimization and Regularization.
+
+
+- date: Fri Sep 25, 2020
+  lecturer:
+  title: >
+    REC: <strong>Overfitting and Regularization</strong>
   notes:
   readings:
 
 
-- date: Thu Sep 3, 2020
+- date: Tue Sep 29, 2020
   lecturer:
   title: >
-    <strong>Linear Regression</strong>
+    <strong>Feature Engineering</strong>
+  notes:
+  readings:
+    Feature Selection, Featurization, Molecular Fingerprinting, Graph Featurization, Signal Featurization, Embedding statistical measures into features, Biological Featurization, Chemical featurization.
+
+
+- date: Thu Oct 1, 2020
+  lecturer:
+  title: >
+    <strong>Ensemble Learning</strong>
+  notes:
+  readings:
+    Decision Trees, Boosting, Random Forest.
+
+
+- date: Fri Oct 2, 2020
+  lecturer:
+  title: >
+    REC: <strong>Feature Engineering with Python</strong>
   notes:
   readings:
 
 
-- date: Thu Sep 3, 2020
+- date: Tue Oct 6, 2020
   lecturer:
   title: >
-    <strong>Linear Regression</strong>
+    <strong>SVD and PCA</strong>
+  notes:
+  readings:
+    Introduction to Singular Value Decomposition (SVD), Properties of SVD, Feature/Concept extraction with SVD, SVD Decomposition, Practical example of SVD, Principal Component Analysis (PCA), PCA properties, Dimensionality Reduction, Eigen Vectors, Connection between PCA and SVD, Example of PCA.
+
+
+- date: Thu Oct 8, 2020
+  lecturer:
+  title: >
+    <strong>Clustering (1)</strong>
+  notes:
+  readings:
+    Nearest Neighbors, K Nearest Neighbors (KNN), KNN Regression, Unsupervised Learning, Clustering, K-Means Algorithm, K-Means Example, Optimum Cluster Numbers.
+
+
+- date: Fri Oct 9, 2020
+  lecturer:
+  title: >
+    REC: <strong>K-Means from scratch</strong>
+  notes:
+  readings:
+
+
+- date: Tue Oct 13, 2020
+  lecturer:
+  title: >
+    <strong>Clustering (2)</strong>
+  notes:
+  readings:
+    Gaussian Mixture Model (GMM), 1D GMM Example, 2D GMM, Expectation Maximization (EM) Algorithm, Multinomial GMM}.
+
+
+- date: Thu Oct 15, 2020
+  lecturer:
+  title: >
+    <strong>Introduction to Neural Networks (NN)</strong>
+  notes:
+  readings:
+    Introduction to Neural Networks (NN), History of NN, Biology of a Neuron, Neuron Signal Transduction, Perceptron model, Activation function, Intro to Backpropagation, Comparisons of Activation function, Why ReLU?, Famous Cost functions in NN, NN terminology and definitions..
+
+
+- date: Fri Oct 16, 2020
+  lecturer:
+  title: >
+    REC: <strong>Midterm Recitation</strong>
+  notes:
+  readings:
+
+
+- date: Tue Oct 20, 2020
+  lecturer:
+  title: >
+    <strong>Midterm</strong> | <strong>Take home Exam</strong>
+  notes:
+  readings:
+
+- date: Thu Oct 22, 2020
+  lecturer:
+  title: >
+    <strong>Intro to Deep Learning</strong>
+  notes:
+  readings:
+    Forward Propagation, Partial Derivatives in Backpropagation, Examples of Back-propagation, Advice on number of hidden layer selection, NN Implementation Algorithm, Motivations for Convolutional Neural Networks (CNN), Biological roots of CNN, Convolution Operation, Convolution Filter, Local Feature Extraction, Volume Convolution, Strides and Filter size.
+
+
+- date: Fri Oct 23, 2020
+  lecturer:
+  title: >
+    REC: <strong>Feed Forward NN Using Numpy</strong>
+  notes:
+  readings:
+
+- date: Tue Oct 27, 2020
+  lecturer:
+  title: >
+    <strong>Support Vector Machines (SVM)</strong>
+  notes:
+  readings:
+    Introduction to Support Vector Machines, Motivations for SVM, Margins and Hyperplane, Decision Rules, Optimization Goals in SVM, Lagrange Multipliers, QP Optimization, Primal Problem, WOLFE Dual Problem, KKT Conditions, Non-linear separability.
+
+- date: Thu Oct 29, 2020
+  lecturer:
+  title: >
+    <strong>SVM Kernels</strong>
+  notes:
+  readings:
+    Geometrical Understanding of SVM DUAL, Linear Inseparability, Idea of a Kernel, 1D and 2D  examples, Definition of Kernel, Kernel's Efficiency and Flexibility, Mercer Theorem, Common Kernel Functions, Radial Basis Function.
+
+
+- date: Fri Oct 30, 2020
+  lecturer:
+  title: >
+    REC: <strong>MNIST with Keras</strong>
+  notes:
+  readings:
+
+
+- date: Tue Nov 3, 2020
+  lecturer:
+  title: >
+    <strong>Regularized SVM and SVR</strong>
+  notes:
+  readings:
+    Motivation for Soft Margins, Regularization and SVM, Lagrangian Form of Regularized SVM, Hinge Loss, Optimization of Regularized SVM, Support Vector Regression.
+
+
+- date: Thu Nov 5, 2020
+  lecturer:
+  title: >
+    <strong>Evaluation Metrics</strong>
+  notes:
+  readings:
+    Evaluation Metrics, MSE, MAE, Confusion Matrix, Cross Validation, Uncertainty.
+
+
+- date: Fri Nov 6, 2020
+  lecturer:
+  title: >
+    REC: <strong>SVM and SVR</strong>
+  notes:
+  readings:
+
+
+- date: Tue Nov 10, 2020
+  lecturer:
+  title: >
+    <strong>Best Practices for ML Engineers</strong>
+  notes:
+  readings:
+    Dataset Cleaning, Reshaping and Normalizing, Babysitting Training, Hyper Parameter Optimization, Cross-fold Validation, Training-Test Accuracy, Techniques to avoid over-fitting, Comparing different ML algorithms, Loss function Selection.
+
+
+- date: Thu Nov 12, 2020
+  lecturer:
+  title: >
+    <strong>Independent Component Analysis (ICA)</strong>
+  notes:
+  readings:
+    Introduction to Independent Component Analysis (ICA), Blind Source Separation (BSS), ICA ambiguities, ICA assumptions, Mutual Information, Non-Gaussianity and relative entropy, Kurtosis, Derivation of ICA mixture matrix, Example of signal decomposition, Example of Image decomposition, Slow feature analysis..
+
+
+- date: Fri Nov 13, 2020
+  lecturer:
+  title: >
+    REC: <strong>ICA</strong>
+  notes:
+  readings:
+
+
+- date: Tue Nov 17, 2020
+  lecturer:
+  title: >
+    <strong>Reinforcement Learning (RL)</strong>
+  notes:
+  readings:
+    Introduction to Reinforcement Learning (RL), Motivations behind RL. Applications of RL, RL vs Un/Supervised Learning, Environment-agent-action-reward, Markov Decision Process (MDP), Markov properties, MDP tuples, transition probabilities,  4*3 world example and robot navigation, Maximum pay off, Policy, Value function,  Bellman's Equation, Bellman example.
+
+
+- date: Thu Nov 19, 2020
+  lecturer:
+  title: >
+    <strong>Reinforcement Learning (RL)</strong>
+  notes:
+  readings:
+    Recap and review of RL, Bellman maximum value, Value iteration, Synchronous and asynchronous update, Policy iteration, Learning transition probabilities, Learning reward, Integration of learnt transition in MDP, Continous MDP, Helicopter control example, Inverted Pendulum dynamics, State-Action Learning. Embedding Physics of the world.
+
+
+- date: Fri Nov 20, 2020
+  lecturer:
+  title: >
+    REC: <strong>RL in Python</strong>
+  notes:
+  readings:
+
+
+- date: Tue Nov 24, 2020
+  lecturer:
+  title: >
+    <strong>Reinforcement Learning (RL)</strong>
+  notes:
+  readings:
+    Recap of State-Action (SA), Embedding Dynamics, Learning Dynamics, Regression learning of state-action (SA),  Fitted Value Iteration (FVI), Q-function, Q-Learning, Q Iterations, Example of Q-Learning, Advantages of Q-Learning.
+
+
+- date: Thu Nov 26, 2020
+  lecturer:
+  title: >
+    <strong>Thanksgiving</strong> - No class - <strong>Happy Thanksgiving</strong>
+  notes:
+  readings:
+
+
+- date: Fri Nov 27, 2020
+  lecturer:
+  title: >
+    REC: <strong>OpenAI Gym</strong>
+  notes:
+  readings:
+
+
+- date: Tue Dec 1, 2020
+  lecturer:
+  title: >
+    <strong>Reinforcement Learning (RL)</strong>
+  notes:
+  readings:
+    Recap of Q-Learning, Q-table, Q-Learning Algorithm, Exploration vs Exploitation, Epsilon-greedy Algorithm, Exploration function, Robot Q-Learning example, Q function Approximation, Derivation of update rule for parameter update.
+
+
+- date: Thu Dec 3, 2020
+  lecturer:
+  title: >
+    <strong>Reinforcement Learning (RL)</strong>
+  notes:
+  readings:
+    Q-Learning with NN. Deep Q Network (DQN), Loss function in DQN, Optimization of DRL, Policy gradients, Experience Replay, Hindsight Experience Replay in Robotics, Implementation of Atari game RL.
+
+
+- date: Tue Dec 8, 2020
+  lecturer:
+  title: >
+    <strong>Students presenting their projects virtually</strong>
+  notes:
+  readings:
+
+
+- date: Mon Dec 14, 2020
+  lecturer:
+  title: >
+    <strong>Final Write-up - due by 11:59 pm - Final project write-up</strong>
   notes:
   readings:
