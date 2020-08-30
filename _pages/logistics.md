@@ -52,7 +52,7 @@ Since many of you may not have familiarity with Python and its libraries, we hav
 
 Course grades will be  **based 50% on homeworks, 20% on the midterm, and 30% on the major term project**. As mentioned earlier, up to  **5% extra credit** will be given for the pop-up quizzes during the course.
 
-#### Grading Scale:
+#### Grading Scale
 
 90%-100% = A
 80%-90%	= B
