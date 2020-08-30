@@ -9,210 +9,119 @@ title: Logistics
 
 ***
 
-### Learning Resources
+### Textbooks and Readings
 
-#### Readings
+The lectures in this course were compiled from different sources and naturally there is no single textbook that covers all of the topics we will discuss in this course. The following textbooks are recommended for the course subjects:
 
-- [SB] [Sutton & Barto, Reinforcement Learning: An Introduction, 2nd edition](http://incompleteideas.net/book/RLbook2018.pdf)
-- [GBC] [Goodfellow, Bengio & Courville, Deep Learning](http://www.deeplearningbook.org/)
-
-Chapters from these two texts, as well as relevant academic papers, will be referenced alongside each lecture, under the [Lectures]({{ "/lectures" | relative_url }}) section. 
-
-The papers and chapters linked to each lecture are required unless noted as optional. They are instrumental to help you understand the concepts and algorithms taught in class.
-
-If you want additional resources which contain parts of the course material, we recommend the following:
-
-#### Online courses
-
-- [David Silver's class: Reinforcement learning](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
-- [Nando de Freitas: Machine Learning, 2013](https://www.youtube.com/watch?v=w2OtwL5T1ow&list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6)
-
-#### Recitations
-
-Recitations are usually given by TAs and their goal is to cover background material needed to understand the course, as well as to provide help for homeworks. You can control the material of the recitations every week by posting on Piazza the topics you wish to be discussed on friday's recitation. Take advantage of this privilege to better tailor the course to your needs. Since neither lectures nor recitations are recorded this semester, your physical presence is necessary for both, for you to optimize your learning experience.
+- **Introduction to Statistical Machine Learning** by Masashi Sugiyama, 2016.  
+- **Pattern Recognition and Machine Learning** by Christopher M. Bishop, 2006.
+- **Reinforcement Learning: An Introduction** by  R. S. Sutton, A. Barto, 2020. 
+- **Deep Learning** by Ian Goodfellow, 2016: [Available online](https://www.deeplearningbook.org/)
 
 ***
 
-### Communication
+### Prerequisites
 
-Piazza is intended for all announcements, general questions about the course, clarifications about assignments, student questions to each other, discussions about material, and so on.
+- Familiarity with the basic **linear algebra**.
+- Familiarity with the basic **probability theory**.
+- **asic computer programming** skills and scientific computing.
 
-We strongly encourage all students to participate in discussion, ask, and answer questions in class as well as through Piazza!
+***
 
-We strongly encourage all students to form reading groups for joint study of the papers and the materials, to make the semester more fun and more productive.
+### Assignments
+
+Most of the assignments in this course involve writing computer programs. In a typical assignment, you will implement a machine learning technique from the lecture and use it to solve a sample problem. You will be graded on how well your computer program works. Therefore you should carefully implement, test and debug each program. Remember, just because the compiler gives no error messages, does not mean the program works as it should. In addition to submitting your code, you will typically be required to annotate and comment your program. To make programming, reporting, commenting, plotting and submitting your program easier, we will use **iPython notebooks (Jupyter Notebooks)**. All assignments will be in **Python**.
+
+For longer assignments, you will be given two weeks. You should take advantage of this by spreading out the effort uniformly. It is unlikely that you will be able to complete the assignment the night before it is due.
+
+***
+
+### Python Programming
+
+We will use the Python programming language for all assignments in this course. Python is a great general-purpose programming language on its own, but with the help of a few popular libraries (numpy, scipy, matplotlib) it becomes a powerful environment for scientific computing.
+
+***
+
+### Recitations
+
+Since many of you may not have familiarity with Python and its libraries, we have designed weekly recitations to cover your needs for python knowledge, programming and its integration with machine learning. Some of recitations are designed to teach you how to implement algorithms and theoretical machine learning into programs. We highly recommend you participate in the recitations.
 
 ***
 
 ### Grading
 
-The class requirements include *5 homework assignments* (55% of the grade) and *3 quizzes* (45% of the grade). By the end of this class you should have a good understanding of the basic methodologies in deep reinforcement learning, and be able to use them to solve real problems of modest complexity.
+Course grades will be  **based 50% on homeworks, 20% on the midterm, and 30% on the major term project**. As mentioned earlier, up to  **5% extra credit** will be given for the pop-up quizzes during the course.
 
-The entirety of your course grade will be based on the performance in the homework assignments and the quizzes.
+#### Grading Scale:
 
-Individual homeworks may NOT necessarily be worth the same percentage. **Some homework assignments may be worth more points than others**, therefore weighing more towards the total.
-
-***
-
-### Homework Assignments
-
-There will be 5 homework assignments over the course of the semester. For each, you may work in groups of up to two students total. Only one person should submit the writeup and code on Gradescope. Make sure you **mark your partner as a collaborator on Gradescope** and that both names are listed in the writeup.
-
-These assignments may contain material that has been covered by published papers and webpages. We expect students to solve the problems themselves rather than search for answers.
-
-Students are required to **typeset written homework solutions using $$\LaTeX$$ and the provided template**, and submit as PDF. All code, including auxiliary scripts used for testing should be submitted with a README file to explain/document them.
+90%-100% = A
+80%-90%	= B
+70%-80%	= C
+60%-70%	= D
+0%-60%	= R
 
 ***
 
-### AWS Resources
+### Submission Procedures
 
-For those of you who need GPU resources for future homeworks, please read through this section carefully.
-
-- **If you are not officially registered for this class, you are not allowed to request resources**. We will be checking before we submit requests, so please do not request access to them.
-- We will be offering AWS resources. All students should join AWS educate using this link: [https://aws.amazon.com/education/awseducate/](https://aws.amazon.com/education/awseducate/) using their **@andrew.cmu.edu email address. If you do not use your andrew email address, your resources may be denied**. You should do this as soon as possible, as it can take time to set up your accounts.
-- AWS NOTE: You need to back this account with your own credit/debit card and we will give out allocation codes of $50, this is important as **should you go over this $50 it will start charging to your card**, please be sure to keep an eye on your funds and not forget to terminate instances. **The university holds no responsibility in paying for additional usage**.
-- We will ask you to complete an Allocation Form in order to apply for your resources. This will be made available later in the semester. Note: HW1 does not require AWS resources.
-
-***
-
-### Collaboration Policy
-
-(Adapted from Roni Rosenfeld's [10-601 Spring 2016](http://www.cs.cmu.edu/~roni/10601/) Course Policies.)
-
-- The purpose of student collaboration is to facilitate learning, not to circumvent it. Studying the material in groups is strongly encouraged. It is also allowed to seek help from other students in understanding the material needed to solve a particular homework problem, provided no written notes (including code) are shared, or are taken at that time, and provided learning is facilitated, not circumvented. The actual solution must be done by each student alone.
-
-- The presence or absence of any form of help or collaboration, whether given or received, must be explicitly stated and disclosed in full by all involved. Specifically, each assignment solution must include answering the following questions:
-
-1. Did you receive any help whatsoever from anyone in solving this assignment? Yes / No.
-  - If you answered 'yes', give full details: ____________
-  - (e.g. "Jane Doe explained to me what is asked in Question 3.4")
-
-2. Did you give any help whatsoever to anyone in solving this assignment? Yes / No.
-  - If you answered 'yes', give full details: _____________
-  - (e.g. "I pointed Joe Smith to section 2.3 since he didn't know how to proceed with Question 2")
-
-3. Did you find or come across code that implements any part of this assignment ? Yes / No. (See below policy on "found code")
-  - If you answered 'yes', give full details: _____________
-  - (book & page, URL & location within the page, etc.).
-
-- If you gave help after turning in your own assignment and/or after answering the questions above, you must update your answers before the assignment's deadline, if necessary by emailing the course staff.
-
-- Collaboration without full disclosure will be handled severely, in compliance with [CMU's Policy on Cheating and Plagiarism](http://www.cmu.edu/policies/documents/Cheating.html).
+- Submission procedure is explained for each assignment on its first page. If you want to take photos of your assignment, just make sure that combine all the jpg into a single pdf file and make it clear.  Unorganized and illegible submissions will be penalized. Take care in arranging your illustrations, written solutions, photos.
+- Only submit the required files that you edit. All other files, including the ones we provide as supporting functionality, are unnecessary because we already have copies of them. Unless we tell you otherwise, make sure that you only submit the file you edited/changed.
+- Do not scan the your hand-written solutions in the highest resolution. Downloading 200MB worth of scanned files from Canvas is utterly unnecessary and counterproductive. Exercise good judgment. You can set the resolution when scanning. Make sure your submission zip file is less than 20MB. That's enough for all the assignments.
+- Name your files logically and clearly. Add a readme.txt with your submissions. It's hard to open each ill-named file one by one and find your solution.
+- A failure to comply with these procedures will result in grade penalties that will be proportional to the severity of your non-compliance.
 
 ***
 
-### Academic Integrity (Read this carefully!)
+### Late Submission Policy
 
-#### Previously Used Assignments
-
-Some of the homework assignments used in this class may have been used in prior versions of this class, or in classes at other institutions, or elsewhere. Solutions to them may be, or may have been, available online, or from other people or sources.
-
-It is explicitly forbidden to use any such sources, or to consult people who have solved these problems before. It is explicitly forbidden to search for these problems or their solutions on the internet. You must solve the homework assignments completely on your own. We will be actively monitoring your compliance.
-
-Collaboration with other students who are currently taking the class is allowed, but only under the conditions stated above.
-
-#### Policy Regarding "Found Code"
-
-You are encouraged to read books and other instructional materials, both online and offline, to help you understand the concepts and algorithms taught in class. These materials may contain example code or pseudo code, which may help you better understand an algorithm or an implementation detail.
-
-However, when you implement your own solution to an assignment, you must put all materials aside, and write your code completely on your own, starting _from scratch_. Specifically, you may not use any code you found or came across.
-
-If you find or come across code that implements any part of your assignment, you must disclose this fact in your collaboration statement.
-
-#### Duty to Protect One's Work
-
-Students are responsible for pro-actively protecting their work from copying and misuse by other students. If a student's work is copied by another student, the original author is also considered to be at fault and in gross violation of the course policies. It does not matter whether the author allowed the work to be copied or was merely negligent in preventing it from being copied. When overlapping work is submitted by different students, both students will be punished.
-
-To protect future students, do not post your solutions publicly, neither during the course nor afterwards.
+Assignments are expected to be completed by due date. Assignments submitted 4 days after the due date will not be accepted.  each student will have a total of **seven free late (calendar) days** to use as s/he sees fit. Once these late days are exhausted, any homework turned in late will be **penalized 20% per late day**. However, no homework will be accepted more than four days after its due date, and late days cannot be used for the final project writeup. **Each 24 hours or part thereof that a homework is late uses up one full late day**.
 
 ***
 
-### Penalties for Violations of Course Policies
+### Final Project
 
-All violations (even the first violation) of the academic integrity or collaboration policy will always be reported to the university authorities (your Department Head, Associate Dean, Dean of Student Affairs, etc.) as an official Academic Integrity Violation and will carry severe penalties.
+The project can be related to your research area (if you have one). However, do not submit anything you have completed prior to attending the course. You also should not submit a project that is largely a collaborative effort with people outside the course. For example, if your research involves other people in a larger project, you could propose to address a slightly different question in the same area (still related to your research) but one that you are pursuing alone or in collaboration with other students taking the course.
 
-1. **The penalty for the first violation is a one-and-a-half letter grade reduction**. For example, if your final letter grade for the course was to be an A-, it would become a C+.
+You can and are encouraged to collaborate with other students. If you do, we ask that you outline the role of each person in the project. Projects involving more than one person have to scale in 'size' with the number of people.
 
-2. The penalty for the second violation is failure in the course, and can even lead to dismissal from the university.
 
-***
+#### Proposal
 
-### Late Policy
+For the final project, each group or student need to submit a proposal. The project proposal should be one paragraph (200-400 words). If you work on your own project, your proposal should contain:
 
-Each student has a total of **10 grace days** that may be applied to the homework assignments.
-**No more than 3 grace days may be used on any single assignment**.
+*What is the problem that you will be investigating? Why is it interesting? What method or algorithm are you proposing? If there are existing implementations, will you use them and how? How do you plan to improve or modify such implementations? What data will you use? If you are collecting new datasets, how do you plan to collect them? What reading will you examine to provide context and background? How will you evaluate your results? Qualitatively, what kind of results do you expect (e.g. plots or figures)? Quantitatively, what kind of analysis will you use to evaluate and/or compare your results (e.g. what performance metrics or statistical tests)?*
 
-Any assignment submitted more than 3 days past the deadline (or the date the student no longer has late day credit) will get **zero credit**.
+#### Poster
 
-Grace days will be **subtracted from all students in the homework team**. E.g. an assignment submitted 1 day late by a team of 2 people will result in both team members losing 1 grace day from their total allotment.
+Each student or group required to present their final project in a poster form. A public poster session will be held at the end of semester and students will present their works. TAs will evaluate the quality, novelty and the size of the project and its presentation quality.
 
-***
+#### Final Report
 
-### Regrade Policy
-
-If you feel that we have made a mistake in grading your homework, please request a regrade on Gradescope and we will consider your request.
-
-Please note that regrading of a homework may cause your grade to go either up or down.
+Your final write-up is required to be between 6 - 8 pages using the provided template (We will provide the template via Canvas). Please use this template so we can fairly judge all student projects without worrying about altered font sizes, margins, etc. Submit your final submission through Canvas.
 
 ***
 
-### Extensions
+### Course Logistics
 
-In general, we do not grant extensions on assignments. There are several exceptions:
-
-- **Medical Emergencies:** If you are sick and unable to complete an assignment or attend class, please go to University Health Services. For minor illnesses, we expect grace days or our late penalties to provide sufficient accommodation. For medical emergencies (e.g. prolonged hospitalization), students may request an extension afterwards and should include a note from University Health Services.
-
-- **Family/Personal Emergencies:** If you have a family emergency (e.g. death in the family) or a personal emergency (e.g. mental health crisis), please contact your academic adviser or Counseling and Psychological Services (CaPS). In addition to offering support, they will reach out to the instructors for all your courses on your behalf to request an extension.
-
-- **University-Approved Absences:** If you are attending an out-of-town university approved event (e.g. multi-day athletic/academic trip organized by the university), you may request an extension for the duration of the trip. You must provide confirmation of your attendance, usually from a faculty or staff organizer of the event.
-
-For any of the above situations, you may request an extension by emailing [Ganesh](mailto:giyer@andrew.cmu.edu). The email should be sent as soon as you are aware of the conflict and **at least 5 days prior to the deadline**. In the case of an emergency, no notice is needed.
-
-***
-
-### Pass/Fail Policy
-
-We allow you take the course as Pass/Fail. Instructor permission is not required. You must complete all aspects of the course (all homeworks) if you take the course as Pass/Fail.
-
-What grade is the cutoff for Pass will depend on your program. Be sure to check with your program / department as to whether you can count a Pass/Fail course towards your degree requirements, **notify us that you want to take the course Pass/Fail, and notify us of the Pass threshold your department uses** (i.e., does it correspond to a grade of A, B, C, or D?)
-
-***
-
-### Auditing
-
-- Official auditing of the course (i.e. taking the course for an  _Audit_ grade) is not permitted this semester.
-
-- Unofficial auditing of the course (i.e. watching the lectures online or attending them in person, but not turning in homeworks to grade) is welcome and permitted without prior approval. We give priority to students who are officially registered for the course, so informal auditors may only take a seat in the classroom **if there is one available 10 minutes after the start of class**. Unofficial auditors will not be given access to course materials such as homework assignments and exams.
-
-- Please email [Ganesh](mailto:giyer@andrew.cmu.edu) if you need further clarification.
-
-***
-
-### Students with Course Conflicts
-
-Students with timing conflicts (i.e., who have another class offered at the same time)  will be permitted to take this course.
-
-**However, there may be occasional days when we need you to arrive in person during class time (e.g. for student presentations)**.  We will let you know of any dates we require you to be available, as soon as we know them.
+- We will be using **Canvas** for the **announcements, assignments, lecture notes, recitation files, and grading**.
+- Students should use **Piazza** for **posting queries and finding team members for projects**.
+- You are encouraged to resolve your doubts and queries in the **Office hours**.
+- You are encouraged to check the Announcement section in Canvas periodically to avoid missing out.
+- Office hours are spread across the week to better accommodate different schedules of all enrolled students, but let us know if you have any issues with the timings.
+- Polls will be taken on a regular basis to collect class feedback on lectures and recitations.
 
 ***
 
 ### Accommodations for Students with Disabilities
 
-If you have a disability and have an accommodations letter from the Disability Resources office, please discuss your accommodation needs with [Ganesh](mailto:giyer@andrew.cmu.edu) or one of the instructors as early in the semester as possible. We will work with you to ensure that accommodations are provided as appropriate.
-
-If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, we encourage you to contact them at [access@andrew.cmu.edu](access@andrew.cmu.edu).
+If you have a disability and are registered with the Office of Disability Resources, I encourage you to use their online system to notify me of your accommodations and discuss your needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at [access@andrew.cmu.edu](mailto:access@andrew.cmu.edu).
 
 ***
 
-### Take care of yourself (Read this!)
+### Statement of Support for Students’ Health and Well-being
 
-Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
+Take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
 
-If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at [www.cmu.edu/counseling](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: **call 412-268-2922** and visit [http://www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
 
 ***
-
-### Listeners outside CMU
-
-Please feel free to reuse any of these course materials that you find of use in your own courses.
-
-We ask that you retain any copyright notices, and include a written notice indicating the source of any materials you use.
