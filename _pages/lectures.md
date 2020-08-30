@@ -25,7 +25,7 @@ title: Schedule
     <th scope="row">{{ lecture.date }}</th>
     {% if lecture.title contains 'No class' or lecture.title contains 'cancelled' or lecture.title contains 'Quiz' or forloop.last %}
     {% assign skip_classes = skip_classes | plus: 1 %}
-    <td colspan="4" align="center">{{ lecture.title }}</td>
+    <td colspan="3" align="center">{{ lecture.title }}</td>
     {% else %}
     <td>
         Lecture #{{ forloop.index | minus: current_module | minus: skip_classes }}
