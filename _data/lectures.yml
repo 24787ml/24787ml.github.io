@@ -13,4 +13,51 @@
     <strong>Linear Regression</strong>
   notes:
   readings:
-    Introd
+    Introduction Linear Regression, Least Squared Error, Requirement for Bias term, Notation, Cost Function, Gradient Descent, Stochastic Gradient Descent, Batch Gradient Descent, Normal Equation (NE), Derivation of NE, Examples of NE.
+
+
+- date: Fri Sep 4, 2020
+  lecturer:
+  title: >
+    REC: <strong>Numpy and python</strong>
+  notes:
+  readings:
+
+
+- date: Thu Sep 3, 2020
+  lecturer:
+  title: >
+    <strong>Linear Regression</strong>
+  notes:
+  readings:
+
+
+- date: Thu Sep 3, 2020
+  lecturer:
+  title: >
+    <strong>Linear Regression</strong>
+  notes:
+  readings:
+
+- date: Thu Sep 3, 2020
+  lecturer:
+  title: >
+    <strong>Linear Regression</strong>
+  notes:
+  readings:
+
+
+- date: Thu Sep 3, 2020
+  lecturer:
+  title: >
+    <strong>Linear Regression</strong>
+  notes:
+  readings:
+
+
+- date: Thu Sep 3, 2020
+  lecturer:
+  title: >
+    <strong>Linear Regression</strong>
+  notes:
+  readings:
