@@ -33,11 +33,8 @@ title: Schedule
         <br />
         {{ lecture.title }}
         <br />
-        [
             {% if lecture.slides %}
               <a href="{{ lecture.slides }}" target="_blank">slides</a>
-            {% else %}
-              slides
             {% endif %}
             {% if lecture.slides2 %}
               | <a href="{{ lecture.slides2 }}" target="_blank">slides 2</a>
@@ -53,11 +50,10 @@ title: Schedule
             {% if lecture.notes %}
             | <a href="{{ lecture.notes }}" target="_blank">notes</a>
             {% endif %}
-        ]
     </td>
     <td>
         {% if lecture.readings %}
-        {{ lecture.title }}
+        {{ lecture.readings }}
         {% endif %}
     </td>
     {% endif %}
