@@ -1,8 +1,16 @@
-  
 - date: Tue Sep 1, 2020
   lecturer:
   title: >
     <strong>Introduction to Machine Learning</strong>
   notes:
   readings:
-    Introduction to Machine Learning Motivation, Applications of ML in transport phenomena, fluid mechanics, chemical engineering, material science, robotics and health. Differences between supervised and unsupervised learning. Formulating an ML problem and Pre-requisites
+    Introduction to Machine Learning Motivation, Applications of ML in transport phenomena, fluid mechanics, chemical engineering, material science, robotics and health. Differences between supervised and unsupervised learning. Formulating an ML problem and Pre-requisites.
+
+
+- date: Thu Sep 3, 2020
+  lecturer:
+  title: >
+    <strong>Linear Regression</strong>
+  notes:
+  readings:
+    Introd
